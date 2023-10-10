@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>LaundryEase</title>
+
+    <style>
+        body {
+            font-family: "Lucida Console", "Courier New", monospace;
+            background: linear-gradient(to right, rgb(189, 189, 255), rgb(255, 233, 236));
+            padding: 0;
+            margin: 0;
+        }
+
+        header {
+            text-align: center;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover:not(.active) {
+            background-color: #111;
+        }
+
+        .active {
+            background-color: #04AA6D;
+        }
+
+        h1 {
+            background-color: black;
+            padding: 10px;
+            margin: 0;
+            color: #92a4ff;
+        }
+
+        input[type=text],
+        input[type=email],
+        textarea,
+        select {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        input[type=submit] {
+            width: 100%;
+            background-color: #4CAF50;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        input[type=submit]:hover {
+            background-color: #45a049;
+        }
+
+        div.contenedor-formulario {
+            border-radius: 5px;
+            background-color: #f2f2f2;
+            padding: 20px;
+        }
+
+        .footer {
+            background-color: #333;
+            color: #FFF;
+            padding: 10px;
+            text-align: center;
+            clear: both;
+        }
+    </style>
+
+</head>
+
+<body>
+    <h1 style="margin: 15px;">LaundryEase: Tu Solución de Lavandería en Edificios</h1>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a class="active" href="productos.html">Productos</a></li>
+                <li><a href="planes.html">Planes</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="gallery">
+        <h2>Lavarropas para grandes edificios</h2>
+        <table style="float: left; padding: 10px;">
+            <tr>
+                <td><img class="image" width="180" src="assets/images/machine1.svg" alt="Maquina tipo 1"></td>
+            </tr>
+            <tr>
+                <td style="text-align: center;"><a href="assets/images/machine1.svg" target="_blank">Ampliar imagen</a>
+                </td>
+            </tr>
+        </table>
+        <p style="text-align: justify;">
+            En LaundryEase, sabemos que las necesidades de lavandería varían según el tamaño del edificio y la cantidad
+            de residentes que atiende. Por eso, presentamos nuestra lavadora especialmente diseñada para edificios
+            grandes. Esta máquina es la solución perfecta para satisfacer las demandas de lavandería en complejos
+            residenciales de gran envergadura.
+
+            Características Destacadas:
+
+            Gran Capacidad: Nuestra lavadora para edificios grandes ofrece una capacidad excepcional. Puede manejar
+            cargas de lavandería significativamente más grandes, lo que la convierte en la elección ideal para edificios
+            con una alta densidad de residentes.
+            Eficiencia Energética: A pesar de su capacidad impresionante, nuestra lavadora está diseñada con la
+            eficiencia en mente. Utiliza tecnología de vanguardia para reducir el consumo de energía y agua, lo que se
+            traduce en ahorros significativos a largo plazo.
+            Programas de Lavado Versátiles: Ofrecemos una variedad de programas de lavado que se adaptan a diferentes
+            tipos de prendas y necesidades de lavandería. Desde lavados delicados hasta ciclos de lavado rápido, nuestra
+            máquina cubre todas las bases.
+            Durabilidad y Fiabilidad: Construida con materiales de alta calidad y tecnología de vanguardia, nuestra
+            lavadora está diseñada para durar. Los residentes pueden confiar en su funcionamiento constante y confiable.
+            Fácil de Usar: A pesar de su capacidad y versatilidad, nuestra lavadora es fácil de usar gracias a su
+            interfaz intuitiva. Los residentes pueden programar su lavado con facilidad y acceder a la lavandería cuando
+            más les convenga.
+            Seguridad y Mantenimiento Simplificado: La seguridad es una prioridad. Nuestra lavadora incluye medidas de
+            seguridad para garantizar el bienestar de los usuarios. Además, su mantenimiento es sencillo, lo que reduce
+            los tiempos de inactividad.
+
+            La Solución Perfecta para Grandes Comunidades Residenciales
+
+            Ya sea que gestiones un edificio de apartamentos de gran tamaño, una residencia estudiantil o cualquier otro
+            complejo residencial grande, nuestra lavadora para edificios grandes de LaundryEase es la elección ideal.
+            Ofrece la capacidad y la eficiencia necesarias para satisfacer las necesidades de lavandería de una gran
+            comunidad sin comprometer la calidad ni la durabilidad.
+
+            Simplifica la vida de tus residentes y mejora la experiencia de lavandería en tu edificio grande con la
+            lavadora LaundryEase diseñada específicamente para ti.</p>
+        <hr>
+        <h2>Lavarropas para Edificios Medianos</h2>
+        <table style="float: right; padding: 10px;">
+            <tr>
+                <td><img class="image" width="180" src="assets/images/machine2.svg" alt="Maquina tipo 2"></td>
+            </tr>
+            <tr>
+                <td style="text-align: center;"><a href="assets/images/machine2.svg" target="_blank">Ampliar imagen</a>
+                </td>
+            </tr>
+        </table>
+        <p style="text-align: justify;">
+            En LaundryEase, comprendemos la importancia de adaptar nuestras soluciones de lavandería a las necesidades
+            específicas de cada edificio. Nuestra lavadora diseñada para edificios medianos es la elección perfecta para
+            aquellos complejos residenciales que buscan una solución eficiente y versátil.
+
+            Características Destacadas:
+
+            Capacidad Versátil: Nuestra lavadora para edificios medianos ofrece una capacidad equilibrada que se adapta
+            a la mayoría de las necesidades de lavandería. Es ideal para edificios con un tamaño intermedio y un número
+            de residentes moderado.
+
+            Eficiencia Energética: A pesar de su versatilidad, nuestra lavadora está diseñada con un enfoque en la
+            eficiencia energética. Gracias a tecnologías avanzadas, reduce el consumo de energía y agua, lo que se
+            traduce en ahorros significativos a largo plazo.
+
+            Programas de Lavado Personalizables: Ofrecemos una amplia gama de programas de lavado personalizables para
+            adaptarse a diferentes tipos de prendas y preferencias. Los residentes pueden elegir el ciclo de lavado que
+            mejor se ajuste a sus necesidades.
+
+            Durabilidad y Confiabilidad: Construida con materiales de alta calidad y componentes confiables, nuestra
+            lavadora está diseñada para funcionar sin problemas durante años. Los residentes pueden confiar en su
+            rendimiento constante.
+
+            Interfaz Intuitiva: La interfaz de usuario de nuestra lavadora es fácil de usar. Los residentes pueden
+            configurar y comenzar su lavado sin complicaciones, lo que hace que la experiencia sea aún más agradable.
+
+            Seguridad Incorporada: La seguridad es primordial. Nuestra lavadora incluye medidas de seguridad para
+            garantizar la protección de los usuarios en todo momento.
+
+            La Elección Versátil para Edificios Medianos
+
+            Si gestionas un edificio residencial de tamaño mediano, nuestra lavadora para edificios medianos de
+            LaundryEase es la elección perfecta. Ofrece la capacidad y la eficiencia necesarias para satisfacer las
+            necesidades de lavandería de una comunidad en crecimiento sin comprometer la calidad ni la durabilidad.
+        </p>
+        <hr>
+        <h2>Lavarropas para Edificios Pequeños</h2>
+        <table style="float: left; padding: 10px;">
+            <tr>
+                <td><img class="image" width="180" src="assets/images/machine3.svg" alt="Maquina tipo 3"></td>
+            </tr>
+            <tr>
+                <td style="text-align: center;"><a href="assets/images/machine3.svg" target="_blank">Ampliar imagen</a>
+                </td>
+            </tr>
+        </table>
+        <p style="text-align: justify;">
+            En LaundryEase, reconocemos que cada edificio tiene necesidades únicas, y es por eso que ofrecemos una
+            lavadora especialmente diseñada para edificios pequeños. Esta máquina compacta pero eficiente es la elección
+            perfecta para comunidades más pequeñas que buscan una solución de lavandería conveniente y efectiva.
+
+            Características Destacadas:
+
+            Diseño Compacto: Nuestra lavadora para edificios pequeños está diseñada para encajar perfectamente en
+            espacios más reducidos. Su diseño compacto la convierte en una opción ideal para edificios con un número
+            limitado de residentes.
+
+            Eficiencia Energética: A pesar de su tamaño compacto, nuestra lavadora está construida con un enfoque en la
+            eficiencia energética. Utiliza tecnología avanzada para reducir el consumo de energía y agua, lo que
+            beneficia tanto a los residentes como al medio ambiente.
+
+            Programas de Lavado Adaptativos: Ofrecemos una variedad de programas de lavado adaptativos que se ajustan a
+            diferentes tipos de prendas y tamaños de carga. Los residentes pueden personalizar sus ciclos de lavado
+            según sus necesidades.
+
+            Durabilidad y Fiabilidad: A pesar de su tamaño, nuestra lavadora está construida para durar. Está equipada
+            con componentes de alta calidad y se somete a rigurosas pruebas de calidad para garantizar un rendimiento
+            fiable a lo largo del tiempo.
+
+            Operación Sencilla: La lavadora para edificios pequeños de LaundryEase es fácil de usar. Su interfaz
+            intuitiva permite a los residentes configurar y comenzar su lavado de manera rápida y sencilla.
+
+            Seguridad Incorporada: La seguridad es una prioridad en LaundryEase. Nuestra lavadora incluye
+            características de seguridad para proteger a los usuarios en todo momento.
+
+            La Solución Perfecta para Edificios Pequeños
+
+            Si gestionas un edificio residencial más pequeño, nuestra lavadora para edificios pequeños de LaundryEase es
+            la elección ideal.
+        </p>
+    </section>
+    <hr>
+    <h3>Modo de uso de nuestros lavarropas</h3>
+
+    <div class="centrado"><video controls src="assets/videos/video1.mp4"></video></div>
+    <div class="centrado">
+        <table>
+            <tr>
+                <td><audio src="assets/audios/audio1.mp3" controls>Ruido que debería hacer el lavarropas al cargar
+                        agua</audio></td>
+            </tr>
+            <tr>
+                <td style="text-align: center;">Ruido que debería hacer el lavarropas al cargar agua</td>
+            </tr>
+        </table>
+    </div>
+
+    <footer class="footer">
+        <p>LaundryEase es una empresa dedicada a ofrecer soluciones de lavandería en edificios. Nuestra prioridad es
+            brindarte comodidad y eficiencia en tus tareas de lavandería.
+            Síguenos en las Redes Sociales:
+            Facebook | Twitter | Instagram
+
+            © 2023 LaundryEase. Todos los derechos reservados.</p>
+    </footer>
+</body>
